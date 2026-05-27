@@ -97,7 +97,7 @@ public class PartnerCertificateManagerServiceImpl implements PartnerCertificateM
     @Value("${mosip.kernel.partner.issuer.certificate.duration.years:1}")
     private int issuerCertDuration;
 
-    @Value("${mosip.kernel.partner.issuer.certificate.allowed.grace.duration:30}")
+    @Value("${mosip.kernel.partner.issuer.certificate.allowed.grace.duration:200}")
     private int gracePeriod;
 
     @Value("${mosip.kernel.partner.truststore.cache.expire.inMins:120}")
